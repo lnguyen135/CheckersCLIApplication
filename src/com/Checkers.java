@@ -2,8 +2,13 @@ package com;
 
 public class Checkers {
 
+// Testing....the below fields were added by Kayan
+private Board gameBoard;
+private Player playerOne;
+private Player playerTwo;
+
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
      Checkers checkersGame = new Checkers();
      checkersGame.setupByUser();
      
@@ -14,10 +19,10 @@ public class Checkers {
 	
 	}
 
+//Current methods to be corrected and new methods updated by team
 public void setupByUser() {}
-public boolean isInProgress() {
-	return false;
-}
+
+public boolean isInProgress() {return false;}
 
 public void currentPlayerTakeTurn() {}
 
