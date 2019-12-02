@@ -1,9 +1,18 @@
 package com;
 public class Piece {
 
-private String color;//a piece is either red or black 
-private String rank; //rank is either pawn or king
+private String color ;//a piece is either red or black 
+private String rank ; //rank is either pawn or king
 
+public Piece() {
+	  this.color = "black" ;
+	  this.rank = "pawn";
+}
+
+public Piece(String color, String rank) {
+	  this.color = color;
+	  this.rank = rank;
+}
 
 //Current methods to be corrected and new methods updated by team
 

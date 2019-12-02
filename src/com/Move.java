@@ -7,6 +7,14 @@ private int initialYCoor;
 private int endingXCoor;
 private int endingYCoor;
 
+public Move(int initialXCoor, int initialYCoor, int endingXCoor, int endingYCoor) 
+{
+	this.initialXCoor = initialXCoor;
+	this.initialYCoor = initialYCoor;
+	this.endingXCoor = endingXCoor;
+	this.endingYCoor = endingYCoor;
+}
+
 //Accessor methods
 public int getInitialXCoor() {return initialXCoor; }
 public int getInitialYCoor() {return initialYCoor; }
