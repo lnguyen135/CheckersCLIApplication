@@ -30,6 +30,11 @@ public void setEndingXCoor(int endingXCoor) {this.endingXCoor = endingXCoor; }
 public void setEndingYCoor(int endingYCoor) {this.endingYCoor = endingYCoor; }
 
 //Current methods to be corrected and new methods updated by team
-public String toString(){return "update this method";}
+public String toString(){
+	return "Initial x and y coordinates: (" + getInitialXCoor()
+	        + ","+ getInitialYCoor()+ ")."+ "Ending x and y coordinates: (" + getEndingXCoor()
+	        + ","+ getEndingYCoor() + ").";
+}
+                      
 	
 }
