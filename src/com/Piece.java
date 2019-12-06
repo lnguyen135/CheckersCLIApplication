@@ -9,8 +9,8 @@ public Piece(String color, String rank) {
 	  this.rank = rank;
 }
 
-public Piece(String color) {
-	  this.color = color ;
+public Piece() {
+	  this.color = "black";
 	  this.rank = "pawn";
 }
 

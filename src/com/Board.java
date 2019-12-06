@@ -6,17 +6,7 @@ private Square [][] squares = new Square[8][8] ;
 
 /*Determines if move is legal. Look up the checker rules to determine what
 is legal */
-public boolean isMoveLegal(Move move) {
-	
-	if(move.getEndingXCoor() < 0) {
-		return false;
-	}
-	
-	else {
-		return true;
-	}
-	
-}
+public boolean isMoveLegal(Move move) {return false;}
 
 //Should move the piece only if the move is legal
 public void movePiece(Move move) {}
