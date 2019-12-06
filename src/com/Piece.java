@@ -10,6 +10,7 @@ public Piece(String color, String rank) {
 	  this.color = color;
 	  this.rank = rank;
 	//Hello from kaleb!
+//	  Clean up these comments! 
 }
 
 public Piece(String color) {
