@@ -4,11 +4,6 @@ public class Piece {
 private String color ;//a piece is either red or black 
 private String rank ; //rank is either pawn or king
 
-public Piece() {
-	  this.color = "black" ;
-	  this.rank = "pawn";
-}
-
 public Piece(String color, String rank) {
 	  this.color = color;
 	  this.rank = rank;
