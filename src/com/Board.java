@@ -8,7 +8,7 @@ private Square [][] squares = new Square[8][8] ;
 is legal */
 public boolean isMoveLegal(Move move) {
 	
-	if(move.getEndingXCoor() < 0) {
+	if(move.getEndingXCoor() <= -1) {
 		return false;
 	}
 	
