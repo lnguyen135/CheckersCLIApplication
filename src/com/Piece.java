@@ -5,10 +5,12 @@ private String color ;//a piece is either red or black
 private String rank ; //rank is either pawn or king
 
 //Bad constructor :P
+//I'm sorry :(
 public Piece(String color, String rank) {
 	  this.color = color;
 	  this.rank = rank;
 	//Hello from kaleb!
+//	  Clean up these comments! 
 }
 
 public Piece() {
