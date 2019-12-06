@@ -14,6 +14,11 @@ public Piece(String color, String rank) {
 	  this.rank = rank;
 }
 
+public Piece(String color) {
+	  this.color = color ;
+	  this.rank = "pawn";
+}
+
 //Current methods to be corrected and new methods updated by team
 
 //Accessor methods
